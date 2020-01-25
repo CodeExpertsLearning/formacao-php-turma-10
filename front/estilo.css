@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: #000;
+    width: 100%;
+    margin-bottom: 40px;
+    display: table;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    float: left;
+}
+header nav ul li a {
+    float: left;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 40px;
+    transition: background .4s ease-in-out;
+}
+
+header nav ul li a:hover {
+    background: #fff;
+    color: #000;
+}
+
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    display: table;
+}
+
+main section {
+    width: 70%;
+    float: left;
+}
+
+main aside {
+    width: 28%;
+    float: right;
+}
+
+
+footer {
+    margin-top: 40px;
+    padding: 30px 0;
+    text-align: center;
+    background: #000;
+    color: #fff;
+}
