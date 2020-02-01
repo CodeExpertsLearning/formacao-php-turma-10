@@ -14,16 +14,16 @@ header {
     display: table;
 }
 
-header nav ul {
+.navbar .navbar-menu {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-header nav ul li {
+.navbar .navbar-menu .navbar-item {
     float: left;
 }
-header nav ul li a {
+.navbar .navbar-menu .navbar-item .navbar-link {
     float: left;
     color: #fff;
     text-decoration: none;
@@ -31,24 +31,67 @@ header nav ul li a {
     transition: background .4s ease-in-out;
 }
 
-header nav ul li a:hover {
+.navbar .navbar-menu .navbar-item .navbar-link:hover {
     background: #fff;
     color: #000;
 }
 
 
-main {
+.content {
     width: 80%;
     margin: 0 auto;
     display: table;
 }
 
-main section {
+.posts {
     width: 70%;
     float: left;
 }
 
-main aside {
+.posts .post {
+    width: 100%;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.posts .post .post-image,
+.posts .post .post-title,
+.posts .post .post-text {
+    margin-bottom: 20px;
+}
+
+.posts .post .post-image {
+    max-width: 100%;
+}
+.posts .post .post-title {
+    font-family: "Roboto";
+}
+
+.posts .post .post-text {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.posts .post .post-link {
+    text-decoration: none;
+    text-align: right;
+    color: #036;
+    transition: color .4s ease-in-out;
+}
+.posts .post .post-link:hover {
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+.sidebar {
     width: 28%;
     float: right;
 }
