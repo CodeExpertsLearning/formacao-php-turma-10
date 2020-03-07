@@ -1,0 +1,23 @@
+<?php require __DIR__ . '/includes/header.phtml'; ?>
+
+<form action="/admin/usuario/criar" method="post">
+    
+    <div class="form-group">
+        <label>Nome Completo</label>
+        <input type="text" name="name" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <label>Email</label>
+        <input type="email" name="email" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <label>Senha</label>
+        <input type="password" name="password" class="form-control">
+    </div>
+
+    <button type="submit" class="btn btn-lg btn-success">Cadastrar</button>
+</form>
+
+<?php require __DIR__ . '/includes/footer.phtml'; ?>
