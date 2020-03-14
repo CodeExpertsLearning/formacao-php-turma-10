@@ -18,8 +18,7 @@ function pdo()
 
 function read_db($conn, $table, $mode = PDO::FETCH_ASSOC)
 {
-    $users = $conn->query('SELECT * FROM ' . $table);
-    return $users->fetchAll($mode);
+    return $conn->query('SELECT * FROM ' . $table, $mode);
 }
 
 
