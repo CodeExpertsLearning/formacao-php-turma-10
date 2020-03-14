@@ -1,24 +1,9 @@
 <?php 
 
-$users = [
-    [
-        'name' => 'Usuário 1',
-        'email' => 'email@gmail.com',
-        'password' => '123456'
-    ],
-    [
-        'name' => 'Usuário 2',
-        'email' => 'email2@gmail.com',
-        'password' => '123456'
-    ],
-    [
-        'name' => 'Usuário 3',
-        'email' => 'email3@gmail.com',
-        'password' => '123456'
-    ],
-    [
-        'name' => 'Usuário 4',
-        'email' => 'email4@gmail.com',
-        'password' => '123456'
-    ]
-];
+// Database Configs
+define('DB_NAME', 'contacts_ten');
+define('DB_USER', 'root');
+define('DB_PASSWORD', '');
+define('DB_HOST', 'localhost');
+
+require __DIR__ . '/functions.php';
