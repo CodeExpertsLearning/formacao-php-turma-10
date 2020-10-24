@@ -5,6 +5,7 @@
         <tr>
             <th>Nome</th>
             <th>Email</th>
+            <th>Ações</th>
         </tr>
     </thead>
     <tbody>
@@ -12,6 +13,10 @@
             <tr>
                 <td><?= $user['name']; ?></td>
                 <td><?= $user['email']; ?></td>
+                <td>
+                    <a href="/admin/usuario/editar?id=<?= $user['id']; ?>">Editar</a>
+                    <a href="/admin/usuario/remover?id=<?= $user['id']; ?>">Remover</a>
+                </td>
             </tr>
         <?php endforeach; ?>
     </tbody>
